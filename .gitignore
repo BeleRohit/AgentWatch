@@ -1,0 +1,35 @@
+# Claude Code local settings
+.claude/settings.local.json
+
+# Markdown docs: keep everything local except README.md
+*.md
+!README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ruff_cache/
+
+# Node / frontend
+node_modules/
+.next/
+dist/
+build/
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite3
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
